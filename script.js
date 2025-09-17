@@ -1,6 +1,8 @@
-function additon(a, b){
-    return a + b;
-
+let age = 20;
+if (age < 18) {
+    console.log("vous êtes mineur.");
+}else if (age === 18) {
+    console.log("vous venez d'atteindre la majorité")
+}else {
+    console.log("vous êtes majeur.");   
 }
-let somme = additon(8, 5);
-console.log("la somme est :" + somme);
